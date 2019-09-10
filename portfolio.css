@@ -10,7 +10,12 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     word-break: break-all;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+:link{
+	text-decoration: underline; color: white;
 }
 
 img {
@@ -298,11 +303,12 @@ section {
 		width: calc(40% - 40px);
 		display: inline-block;
 	}
+
 }
 
 .about-area > .picture > img {
-	max-width: 250px;
-	max-height: 300px;
+	max-width: 200px;
+	max-height: 250px;
 	border-radius: 15px;
 }
 
