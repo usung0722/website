@@ -17,6 +17,9 @@ body {
 :link{
 	text-decoration: underline; color: white;
 }
+:visited{
+	text-decoration: underline; color: white;
+}
 
 img {
     width: 100%;
@@ -308,7 +311,7 @@ section {
 
 .about-area > .picture > img {
 	max-width: 200px;
-	max-height: 250px;
+	max-height: 270px;
 	border-radius: 15px;
 }
 
@@ -375,7 +378,7 @@ section {
 .about-area > .text > .sns > a {
 	width: 50px;
 	line-height: 50px;
-	background-color: #eee;
+	background-color: rgb(76, 113, 194);
 	border-radius: 5px;
 	font-size: 16px;
 	display: inline-block;
